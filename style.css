@@ -1,0 +1,293 @@
+@font-face {
+    font-family:Great; 
+    src: url(Great_Vibes/GreatVibes-Regular.ttf);
+}
+
+@font-face{
+    font-family: Oswald;
+    src: url(Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+body{
+    background: linear-gradient(rgba(165, 196, 231, 0.5), rgba(75, 54, 54, 0.075)),  url(images/me.jpg) no-repeat no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    margin:0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+section#header{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    padding: 20px 30px ;
+    color: white;
+    position: fixed;
+   right: 0px;
+   left: 0px;
+}
+
+div.brand > span{
+    font-family: Great;
+    font-size: 70px;
+    position: absolute;
+
+}
+div.nav-link ul{
+    display: inline;
+}
+div.nav-link ul li{
+    display: inline;
+
+}
+div.nav-link ul li a{
+    margin: 10px 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    transition: 1s all; 
+}
+div.nav-link ul li a:hover, div.nav-link ul li a.active{
+    color: yellow; 
+    font-weight: bolder;
+    transition: 1s all;  
+}
+
+section#landing{
+    text-align: center;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.hero{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    padding:90px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+div.hero span:first-child{
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: Oswald;
+
+}
+div.hero span:last-child{
+    color: white;
+    font-size: 20px;
+}
+
+/*ABOUT SECTION*/
+section#about{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 120px;
+}
+section#about > div.d-flex > div{
+    width: 50%;
+}
+
+.image-holder{
+width: 40%;
+}
+  
+strong.me{
+    border-bottom: 2px solid Yellow;
+}
+   
+/*SERVICES SECTTION*/
+p.title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    border-bottom: 2px solid yellow;
+
+}
+section#services{
+    margin-top:120px;
+    
+    color: white;
+    justify-content: center;
+}
+section#services > div.row{
+    display: flex;
+    justify-content: space-around;
+    
+   
+
+}
+
+section#services > div.row2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+
+section#services > div> div{
+    width: 30%;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.4));
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gloal Styles */
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.text-tomato{
+    color: yellow;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1076px){
+    div.nav-link ul li a span{
+        display: none;
+        visibility: hidden;        
+    }
+    div.brand{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    div.brand > span{
+        font-size: 20px;
+        position: relative;
+        
+    }
+    nav.d-flex{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    section#landing{
+        text-align: center;
+        padding-top: 200px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    div.hero{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+        padding:40px;
+        border: 2px solid white;
+        border-radius: 50px;
+        margin: 10px;
+    }
+    
+    div.hero span:first-child{
+        color: white;
+        font-weight: bold;
+        font-size: 35px;
+        font-family: Oswald;
+    
+    }
+    div.hero span:last-child{
+        color: white;
+        font-size: 10px;
+    }
+}
